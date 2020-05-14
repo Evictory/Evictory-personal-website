@@ -8,7 +8,6 @@ export const Container = styled.div`
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   width: 180px;
-  align-items: center;
   margin-left: 80px;
   height: 80vh;
   padding: 20px;
@@ -16,6 +15,7 @@ export const Container = styled.div`
 
 export const ProfilePhoto = styled.img`
   margin-top: 10px;
+  margin-bottom: 10px;
   border-radius: 3px;
   width: 140px ;
   height: 130px ;
@@ -23,7 +23,7 @@ export const ProfilePhoto = styled.img`
 `;
 
 export const Line = styled.line`
-  margin: 20px auto;
+  margin: 10px auto;
   height: 2px;
   background-color: #b1c0cd;
   width: 100%;

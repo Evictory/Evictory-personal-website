@@ -13,11 +13,12 @@ const GlobalStyle = createGlobalStyle`
     background: F0F0F2;
     -webkit-font-smoothing: antialiased;
     justify-content: center;
+    color: #28475d;
   }
   body, input, button {
     font: 15px 'PT Sans', sans-serif;
   }
-
+  
   #root {
     max-width: auto;
     margin: 0 auto;
