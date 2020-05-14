@@ -1,7 +1,9 @@
 import React from 'react';
-import { Container, ProfilePhoto, Line } from './styles'
+import { Container, ProfilePhoto, Line } from './styles';
 
-import Techs from '../Techs'
+import SocialMedias from '../SocialMedia';
+import Techs from '../Techs';
+
 import profilePhoto from '../../assets/Profile.png';
 
 const PersonalContainer: React.FC = () => {
@@ -12,6 +14,7 @@ const PersonalContainer: React.FC = () => {
       <Line />
       <Techs />
       <Line />
+      <SocialMedias />
     </Container>
   );
   

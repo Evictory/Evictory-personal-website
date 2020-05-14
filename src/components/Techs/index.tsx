@@ -2,16 +2,18 @@ import React from 'react';
 import { Title, List } from './styles'
 
 const Techs: React.FC = () => {
+  const title = "Main Techs"
+  const techs = [
+    "TypeScript",
+    "ReactJS",
+    "NodeJS",
+    "CSS",
+  ]
   return (
     <>
-    <Title>Main Techs</Title>
+    <Title>{ title }</Title>
     <List>
-      <li>JavaScript</li>
-      <li>ReactJS</li>
-      <li>React Native</li>
-      <li>NodeJS</li>
-      <li>HTML5</li>
-      <li>CSS</li>
+      {techs.map(tech => <li>{ tech }</li>)}
     </List>
     </>
   );
