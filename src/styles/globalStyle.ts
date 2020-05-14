@@ -10,18 +10,18 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: F0F0F2;
     -webkit-font-smoothing: antialiased;
-    justify-content: center;
+    background: #fbf8ef;
     color: #28475d;
+    justify-content: center;
   }
   body, input, button {
     font: 15px 'PT Sans', sans-serif;
   }
   
   #root {
-    max-width: auto;
     margin: 0 auto;
+    max-width: auto;
   }
 `;
 

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.header` 
   align-items: center;
-  background-color: #363b96;
+  background-color: #353e4a;
   display: flex;
   font-weight: bold;
   font-size: 18px;
@@ -17,8 +17,8 @@ export const Name = styled.small`
 `;   
 
 export const ItemLeft = styled.small`
-  color: #be7abb;
-  margin-left: 125px;
+  color: #04D0D9;
+  margin-left: 100px;
   margin-right: 100px;
 `;
 
