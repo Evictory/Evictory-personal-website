@@ -1,24 +1,23 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  border: 2px solid #000000;
   align-items: center;  
-  justify-content: center;
   display: flex;
-  margin: 20px;
-  padding: 10px;
   flex-direction: column;
+  justify-content: center;
+  margin: 20px 20px 0 20px;
+  padding: 10px;
   text-align: center;
+
   p {
-    margin: 10px;
-    font-size: 18px;
+    font-size: 16px;
+    margin-bottom: 20px;
   }
 `;
 
 export const Description = styled.div`
   p {
     margin: 20px 20px;
-    flex: 1;
   }
   text-align: center;
 `;

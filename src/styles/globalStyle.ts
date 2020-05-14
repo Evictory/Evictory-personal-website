@@ -15,8 +15,13 @@ const GlobalStyle = createGlobalStyle`
     color: #28475d;
     justify-content: center;
   }
+
   body, input, button {
     font: 15px 'PT Sans', sans-serif;
+  }
+  
+  button:hover {
+    background-color: invert;
   }
   
   #root {
