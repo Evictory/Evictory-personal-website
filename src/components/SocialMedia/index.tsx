@@ -8,7 +8,7 @@ import { ReactComponent as LinkedinIcon } from '../../assets/linkedin-brands.svg
 const SocialMedias: React.FC = () => {
   const medias = [
     <GithubIcon title="GitHub" href="https://github.com/Evictory"/>,
-    <LinkedinIcon title="Linkedin"/>,
+    <LinkedinIcon title="Linkedin" href="https://www.linkedin.com/in/emerson-vitorio-de-oliveira-237649bb/"/>,
     <SkypeIcon title="emerson_vitorio"/>,
   ]
 
@@ -17,14 +17,14 @@ const SocialMedias: React.FC = () => {
       <List>
         {medias.map(media => 
           <>
-          <div>
-            <li>
-            { media }
-            </li>
-            <small>
-             { media.props.title }
-            </small>  
-          </div>
+            <a href={ media.props.href }>
+              <li>
+              { media }
+              </li>
+              <small>
+              { media.props.title }
+              </small>  
+            </a>
           </>
         )}
       </List>

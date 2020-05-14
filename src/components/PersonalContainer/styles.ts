@@ -8,9 +8,10 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   margin-left: 80px;
-  height: 80vh;
+  margin-right: 20px;
   padding: 20px;
   width: 180px;
+  float: left;
 `;
 
 export const ProfilePhoto = styled.img`
