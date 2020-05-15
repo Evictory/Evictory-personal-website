@@ -1,5 +1,7 @@
 import React from 'react';
 
+import CrudContainer from '../CrudContainer/index';
+
 import { Container, Line, Description } from './styles'
 
 const WelcomeContainer: React.FC = () =>{  
@@ -24,6 +26,7 @@ const WelcomeContainer: React.FC = () =>{
           You can copy, study or whatever you like. 
         </p>
       </Description>
+      <CrudContainer />
     </Container>
   );
 }

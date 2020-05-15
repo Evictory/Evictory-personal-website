@@ -8,6 +8,7 @@ export const Container = styled.div`
   margin: 20px 20px 0 20px;
   padding: 10px;
   text-align: center;
+  min-width: 200px;
 
   p {
     font-size: 16px;

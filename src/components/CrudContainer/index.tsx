@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container, Text, ButtonArea, ButtonCreate , ButtonDelete, ButtonRead, ButtonUpdate} from './styles';
+import { Container, Text, ButtonArea, Button} from './styles';
 
 const CrudContainer: React.FC = () => {
 
@@ -15,10 +15,10 @@ const CrudContainer: React.FC = () => {
         </small>
       </Text>
       <ButtonArea>
-        <ButtonCreate>Create</ButtonCreate>
-        <ButtonRead>Read</ButtonRead>
-        <ButtonUpdate>Update</ButtonUpdate>
-        <ButtonDelete>Delete</ButtonDelete>
+        <Button className="create">Create</Button>
+        <Button className="read">Read</Button>
+        <Button className="update">Update</Button>
+        <Button className="delete">Delete</Button>
       </ButtonArea>
     </Container>
   );

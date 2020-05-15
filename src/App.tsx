@@ -1,6 +1,5 @@
 import React from 'react';
 
-import CrudContainer from '../src/components/CrudContainer';
 import Header from '../src/components/Header/index';
 import GlobalStyle from './styles/globalStyle';
 import PersonalContainer from './components/PersonalContainer'
@@ -12,7 +11,6 @@ const App: React.FC = () => {
       <Header />
       <PersonalContainer />
       <WelcomeContainer />
-      <CrudContainer />
       <GlobalStyle />
     </>
   );

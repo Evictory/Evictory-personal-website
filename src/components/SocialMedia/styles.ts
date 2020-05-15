@@ -8,6 +8,7 @@ export const List = styled.ul`
   
   a {
     color: #fbf8ef;
+    display: block;
     display: flex;
     justify-content: left;
     text-decoration: none; 

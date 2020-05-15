@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { shade } from 'polished';
 
 export const Container = styled.div` 
   display: flex;
@@ -27,31 +28,40 @@ export const ButtonArea = styled.div`
 export const Button = styled.button`
   border-radius: 5px;
   border: none;
-  cursor: pointer;
+  box-shadow: 0 6px 14px 0 rgba(0,0,0,0.2), 0 5px 20px 0 rgba(0,0,0,0.19);
   color: #fbf8ef;
-  width: 100px;
+  cursor: pointer;
   height: 40px;
   margin: 20px;
   transition-duration: 0.3s;
-  box-shadow: 0 6px 14px 0 rgba(0,0,0,0.2), 0 5px 20px 0 rgba(0,0,0,0.19);
+  width: 100px;
+
   :hover {
-    background-color: #FFFFFF;
-    color: #04D0D9;
-    font-size: 18px;
-    font-weight: bold;
-    height: 50px;
+    transform: translateY(10px);
+  }
+
+  &.create {
+    background-color: #108056;
+    :hover {
+    background-color: ${shade(0.2, '#108056')};
+    }
+  }
+  &.read {
+    background-color: #877da4;
+    :hover {
+    background-color: ${shade(0.2, '#877da4')};
+    }
+  }
+  &.delete {
+    background-color: #ff4040;
+    :hover {
+    background-color: ${shade(0.2, '#ff4040')};
+    }
+  }
+  &.update {
+    background-color: #ffa500;
+    :hover {
+    background-color: ${shade(0.2, '#ffa500')};
+    }
   }
 `;
-
-export const ButtonCreate = styled(Button)`
-  background-color: #108056
-;`
-export const ButtonDelete = styled(Button)`
-background-color: #ff4040
-;`
-export const ButtonUpdate = styled(Button)`
-background-color: #ffa500
-;`
-export const ButtonRead = styled(Button)`
-background-color: #877da4
-;`
