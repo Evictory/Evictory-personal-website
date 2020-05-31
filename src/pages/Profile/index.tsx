@@ -2,6 +2,8 @@ import React from 'react';
 
 import Header from '../../components/Header/index';
 
+import imgProfile from '../../assets/Profile.png';
+
 import { Container, Content, HeaderContent, InfoActualPage } from './styles';
 
 const Profile: React.FC = () => {
@@ -12,18 +14,20 @@ const Profile: React.FC = () => {
       <Container>
         <Content>
           <HeaderContent>
-            <img src="Erms" alt="Erms" />
+            <img src={imgProfile} alt="Erms" />
             <div>
               <p>Texto acima do nav</p>
               <nav>
                 <a href="Home">Home</a>
                 <a href="Home">Contato</a>
                 <a href="Home">Projetos</a>
-                <a href="Home">CRUD</a>
+                <a href="Home" className="crud">
+                  CRUD
+                </a>
               </nav>
             </div>
           </HeaderContent>
-          <InfoActualPage />
+          <InfoActualPage>Você está em:</InfoActualPage>
         </Content>
       </Container>
     </>

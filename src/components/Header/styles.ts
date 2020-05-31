@@ -5,6 +5,7 @@ export const Container = styled.header`
   background-color: #0e1424;
   display: flex;
   height: 83px;
+  justify-content: space-around;
   margin: 0;
   padding: 25px;
   width: 100%;
@@ -13,7 +14,6 @@ export const Container = styled.header`
     font-size: 24px;
     &.welcome {
       color: #04d0d9;
-      flex: 1;
       padding-left: 100px;
       min-width: 240px;
     }
