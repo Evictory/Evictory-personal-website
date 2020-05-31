@@ -11,22 +11,24 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     -webkit-font-smoothing: antialiased;
-    background: #fbf8ef;
-    color: #28475d;
+    background: #171D2D;
+    color: #353E4A;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
     justify-content: center;
   }
 
   body, input, button {
-    font: 15px 'PT Sans', sans-serif;
+    font-size: 15px;
   }
   
   button:hover {
-    background-color: invert;
+    cursor: pointer;
   }
   
   #root {
     margin: 0 auto;
-    max-width: 1560px;
+    max-width: 1366px;
   }
 `;
 

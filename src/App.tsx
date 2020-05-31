@@ -1,16 +1,12 @@
 import React from 'react';
-
-import Header from './components/Header/index';
 import GlobalStyle from './styles/globalStyle';
-import PersonalContainer from './components/PersonalContainer';
-import WelcomeContainer from './components/WelcomeContainer';
+
+import Profile from './pages/Profile';
 
 const App: React.FC = () => {
   return (
     <>
-      <Header />
-      <PersonalContainer />
-      <WelcomeContainer />
+      <Profile />
       <GlobalStyle />
     </>
   );

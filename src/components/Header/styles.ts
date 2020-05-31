@@ -1,24 +1,25 @@
 import styled from 'styled-components';
 
-export const Container = styled.header` 
+export const Container = styled.header`
   align-items: center;
-  background-color: #353e4a;
+  background-color: #0e1424;
   display: flex;
-  font-weight: bold;
-  font-size: 18px;
-  height: 60px;
-  justify-content: space-between;
-  padding: 5px;
-`;
-export const Name = styled.small`
-  color: #FFF;
-  margin-right: 25px;
-  margin-left: 100px;  
-`;   
+  height: 83px;
+  margin: 0;
+  padding: 25px;
+  width: 100%;
 
-export const ItemLeft = styled.small`
-  color: #04D0D9;
-  margin-left: 100px;
-  margin-right: 100px;
+  small {
+    font-size: 24px;
+    &.welcome {
+      color: #04d0d9;
+      flex: 1;
+      padding-left: 100px;
+      min-width: 240px;
+    }
+    &.funnyText {
+      color: #d9aa04;
+      min-width: 240px;
+    }
+  }
 `;
-
