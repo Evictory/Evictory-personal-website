@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Header from '../src/components/Header/index';
+import Header from './components/Header/index';
 import GlobalStyle from './styles/globalStyle';
-import PersonalContainer from './components/PersonalContainer'
+import PersonalContainer from './components/PersonalContainer';
 import WelcomeContainer from './components/WelcomeContainer';
 
 const App: React.FC = () => {
@@ -14,6 +14,6 @@ const App: React.FC = () => {
       <GlobalStyle />
     </>
   );
-}
+};
 
 export default App;
