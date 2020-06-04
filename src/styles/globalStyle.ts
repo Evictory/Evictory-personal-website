@@ -29,6 +29,7 @@ const GlobalStyle = createGlobalStyle`
   #root {
     margin: 0 auto;
     max-width: 1366px;
+    min-width: 485px;
   }
 `;
 
