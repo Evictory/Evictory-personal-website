@@ -3,7 +3,8 @@ Althoug I already have the back-end to put in the website, I didn't yet because 
 
 My plan incluses let this public for everyone who wants to learn on it.
 
-Take a look how it looks like for now:
+Take a look how it looks like for now (back to commit 2c8e830):
+
 
 ![](profile-web-page.gif)
 
